@@ -63,7 +63,7 @@
   @apply font-body text-[30px] xl:text-[38px];
 }
 .s1 {
-  @apply font-body text-[20px] xl:text-[24px];
+  @apply font-body font-bold text-[20px] xl:text-[24px];
 }
 .p1 {
   @apply font-body text-[20px] xl:text-[24px];
