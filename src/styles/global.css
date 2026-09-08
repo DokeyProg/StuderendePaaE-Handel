@@ -54,32 +54,32 @@
   }
 }
 
-/* Header (titel) - mobil:25px - Desktop:30px*/
+/* Header (titel) - small:25px - XL:30px*/
 .h1 {
   @apply font-body text-[25px] xl:text-[30px];
 }
 
-/* Citat-tekst - mobil:25px - Desktop:30px */
+/* Citat-tekst - small:25px - XL:30px */
 .quote {
   @apply font-body italic text-[25px] xl:text-[30px];
 }
 
-/* Subheader (undertitel) - mobil:20px - Desktop:25px*/
+/* Subheader (undertitel) - small:20px - XL:25px*/
 .s1 {
   @apply font-body font-bold text-[20px] xl:text-[25px];
 }
 
-/* Paragraph (brødtekst) - mobil:15px - Desktop:20px */
+/* Paragraph (brødtekst) - small:15px - XL:20px */
 .p1 {
   @apply font-body text-[15px] xl:text-[20px];
 }
 
-/* Tekst til knapper - mobil:20px - Desktop:25px*/
+/* Tekst til knapper - small:20px - XL:25px*/
 .button {
   @apply font-body text-[20px] xl:text-[25px];
 }
 
-/* tekst til links - mobil:20px - Desktop:25px */
+/* tekst til links - small:20px - XL:25px */
 .linktext {
   @apply font-body text-[20px] xl:text-[25px];
 }
