@@ -4,9 +4,11 @@ import SecondCTA from "../components/SecondCTA.astro";
 ---
 
 <Layout>
-  <section class="pt-30 flex flex-col gap-30 w-250 xl:w-350 place-self-center">
-    <div class="flex flex-row place-items-center px-20 gap-10">
-      <div class="flex flex-col gap-5 w-300">
+  <section
+    class="flex flex-col gap-10 place-self-center pt-30 mx-30 xl:mx-50 py-10"
+  >
+    <div class="flex flex-row place-items-center gap-10 justify-between">
+      <div class="flex flex-col gap-5 w-full xl:w-200">
         <p class="quote">
           “Jeg lærer bedst, når jeg får lov til selv at prøve tingene af.”
         </p>
@@ -19,15 +21,15 @@ import SecondCTA from "../components/SecondCTA.astro";
         </p>
       </div>
       <div>
-        <img src="../images/Asger Firkant.png" alt="" />
+        <img class="w-150" src="../images/Asger Firkant.png" alt="" />
       </div>
     </div>
-    <div class="flex flex-row place-items-center px-20 gap-10">
+    <div class="flex flex-row place-items-center gap-10 xl:gap-30 w-full x">
       <div>
-        <img class="w-[80%]" src="../images/Asger Rund.png" alt="" />
+        <img class="w-150" src="../images/Asger Rund.png" alt="" />
       </div>
-      <div>
-        <p class="p1 w-100 xl:w-140">
+      <div class="xl:w-200 w-full">
+        <p class="p1">
           Noget af det, der tiltaler mig ved E-handel, er, at vi kommer til at
           arbejde med konkrete projekter og ikke kun teori. Jeg kan godt lide
           processen fra en idé opstår, til man står med noget, der rent faktisk
@@ -37,6 +39,6 @@ import SecondCTA from "../components/SecondCTA.astro";
         </p>
       </div>
     </div>
-    <SecondCTA />
   </section>
+  <SecondCTA />
 </Layout>

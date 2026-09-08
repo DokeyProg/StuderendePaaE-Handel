@@ -4,9 +4,11 @@ import SecondCTA from "../components/SecondCTA.astro";
 ---
 
 <Layout>
-  <section class="pt-30 flex flex-col gap-30 w-250 xl:w-350 place-self-center">
-    <div class="flex flex-row place-items-center px-20 gap-10">
-      <div class="flex flex-col gap-5 w-300">
+  <section
+    class="flex flex-col gap-10 place-self-center pt-30 mx-30 xl:mx-50 py-10"
+  >
+    <div class="flex flex-row place-items-center gap-10 justify-between">
+      <div class="flex flex-col gap-5 w-full xl:w-200">
         <p class="quote">
           “Jeg synes, det er spændende at finde ud af, hvad der egentlig får os
           til at vælge det ene frem for det andet online.”
@@ -19,15 +21,15 @@ import SecondCTA from "../components/SecondCTA.astro";
         </p>
       </div>
       <div>
-        <img src="../images/Nikoline Firkant.png" alt="" />
+        <img class="w-150" src="../images/Nikoline Firkant.png" alt="" />
       </div>
     </div>
-    <div class="flex flex-row place-items-center px-20 gap-10">
+    <div class="flex flex-row place-items-center gap-10 xl:gap-30 w-full x">
       <div>
-        <img class="w-[80%]" src="../images/Nikoline Rund.png" alt="" />
+        <img class="w-150" src="../images/Nikoline Rund.png" alt="" />
       </div>
-      <div>
-        <p class="p1 w-100 xl:w-140">
+      <div class="xl:w-200 w-full">
+        <p class="p1">
           Jeg kommer fra markedsføringsøkonomuddannelsen, hvor jeg især blev
           fanget af marketing og kommunikation. Det vil jeg gerne tage med
           videre på E-handel, men samtidig blive klogere på hele rejsen bag et
@@ -37,6 +39,6 @@ import SecondCTA from "../components/SecondCTA.astro";
         </p>
       </div>
     </div>
-    <SecondCTA />
   </section>
+  <SecondCTA />
 </Layout>

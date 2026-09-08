@@ -6,26 +6,22 @@
 
 @font-face {
   font-family: "Inter-BlackItalic";
-  src: url("/fonts/Inter_18pt-BlackItalic.ttf")
-    format("truetype");
+  src: url("/fonts/Inter_18pt-BlackItalic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Inter-ExtraBoldItalic";
-  src: url("/fonts/Inter_18pt-ExtraBoldItalic.ttf")
-    format("truetype");
+  src: url("/fonts/Inter_18pt-ExtraBoldItalic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Inter-Regular";
-  src: url("/fonts/Inter_18pt-Regular.ttf")
-    format("truetype");
+  src: url("/fonts/Inter_18pt-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Inter-BoldItalic";
-  src: url("/fonts/Inter_18pt-BoldItalic.ttf")
-    format("truetype");
+  src: url("/fonts/Inter_18pt-BoldItalic.ttf") format("truetype");
 }
 
 @theme {
@@ -46,8 +42,7 @@
   --font-body: "Inter-Regular";
   --font-link: "Inter-BoldItalic";
 
-  --animate-heartbeat: heartbeat 1.5s ease-in-out
-    infinite;
+  --animate-heartbeat: heartbeat 1.5s ease-in-out infinite;
   @keyframes heartbeat {
     0%,
     100% {
@@ -68,7 +63,7 @@
 }
 
 .s1 {
-  @apply font-body font-bold text-[20px] xl:text-[30px];
+  @apply font-body font-bold text-[20px] xl:text-[25px];
 }
 .p1 {
   @apply font-body text-[15px] xl:text-[20px];
