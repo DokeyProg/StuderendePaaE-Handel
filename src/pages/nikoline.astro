@@ -1,15 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import SecondCTA from '../components/SecondCTA.astro';
+import SecondCTA from "../components/SecondCTA.astro";
 ---
 
 <Layout>
-  <section class="pt-30 flex flex-col gap-30 w-250 place-self-center">
+  <section class="pt-30 flex flex-col gap-30 w-250 xl:w-350 place-self-center">
     <div class="flex flex-row place-items-center px-20 gap-10">
       <div class="flex flex-col gap-5 w-300">
-        <p class="quote">“Jeg synes, det er spændende at finde ud af, hvad der egentlig får os til at vælge det ene frem for det andet online.”</p>
-        <p>
-          Jeg er 23 år og bor på Vesterbro. Før E-handel læste jeg til markedsføringsøkonom, og det var faktisk gennem mine valgfag, at jeg fik øjnene op for e-handel. Jeg blev hurtigt nysgerrig på området og havde lyst til at lære endnu mere, hvilket førte mig til E-handel.
+        <p class="quote">
+          “Jeg synes, det er spændende at finde ud af, hvad der egentlig får os
+          til at vælge det ene frem for det andet online.”
+        </p>
+        <p class="p1">
+          Jeg er 23 år og bor på Vesterbro. Før E-handel læste jeg til
+          markedsføringsøkonom, og det var faktisk gennem mine valgfag, at jeg
+          fik øjnene op for e-handel. Jeg blev hurtigt nysgerrig på området og
+          havde lyst til at lære endnu mere, hvilket førte mig til E-handel.
         </p>
       </div>
       <div>
@@ -21,11 +27,16 @@ import SecondCTA from '../components/SecondCTA.astro';
         <img class="w-[80%]" src="../images/Nikoline Rund.png" alt="" />
       </div>
       <div>
-         <p class="w-100">
-          Jeg kommer fra markedsføringsøkonomuddannelsen, hvor jeg især blev fanget af marketing og kommunikation. Det vil jeg gerne tage med videre på E-handel, men samtidig blive klogere på hele rejsen bag et køb online. Jeg er især nysgerrig på kundeadfærd, og hvordan man kan bruge både kreativitet og data til at skabe noget, der rent faktisk rammer målgruppen..
+        <p class="p1 w-100 xl:w-140">
+          Jeg kommer fra markedsføringsøkonomuddannelsen, hvor jeg især blev
+          fanget af marketing og kommunikation. Det vil jeg gerne tage med
+          videre på E-handel, men samtidig blive klogere på hele rejsen bag et
+          køb online. Jeg er især nysgerrig på kundeadfærd, og hvordan man kan
+          bruge både kreativitet og data til at skabe noget, der rent faktisk
+          rammer målgruppen..
         </p>
       </div>
     </div>
-    <SecondCTA></SecondCTA>
+    <SecondCTA />
   </section>
 </Layout>

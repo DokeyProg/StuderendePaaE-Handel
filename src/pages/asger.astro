@@ -1,15 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import SecondCTA from '../components/SecondCTA.astro';
+import SecondCTA from "../components/SecondCTA.astro";
 ---
 
 <Layout>
-  <section class="pt-30 flex flex-col gap-30 w-250 place-self-center">
+  <section class="pt-30 flex flex-col gap-30 w-250 xl:w-350 place-self-center">
     <div class="flex flex-row place-items-center px-20 gap-10">
       <div class="flex flex-col gap-5 w-300">
-        <p class="quote">“Jeg lærer bedst, når jeg får lov til selv at prøve tingene af.”</p>
-        <p>
-          Jeg er 25 år og bor i Holbæk. Jeg valgte E-handel, fordi jeg gerne ville bygge videre på min tidligere uddannelse og blive klogere på den digitale del af handel og marketing. Især kombinationen af e-commerce, marketing og data fangede min interesse, og derfor føltes E-handel som det naturlige næste skridt for mig.
+        <p class="quote">
+          “Jeg lærer bedst, når jeg får lov til selv at prøve tingene af.”
+        </p>
+        <p class="p1">
+          Jeg er 25 år og bor i Holbæk. Jeg valgte E-handel, fordi jeg gerne
+          ville bygge videre på min tidligere uddannelse og blive klogere på den
+          digitale del af handel og marketing. Især kombinationen af e-commerce,
+          marketing og data fangede min interesse, og derfor føltes E-handel som
+          det naturlige næste skridt for mig.
         </p>
       </div>
       <div>
@@ -21,11 +27,16 @@ import SecondCTA from '../components/SecondCTA.astro';
         <img class="w-[80%]" src="../images/Asger Rund.png" alt="" />
       </div>
       <div>
-         <p class="w-100">
-          Noget af det, der tiltaler mig ved E-handel, er, at vi kommer til at arbejde med konkrete projekter og ikke kun teori. Jeg kan godt lide processen fra en idé opstår, til man står med noget, der rent faktisk fungerer. Derfor glæder jeg mig især til at få fingrene ned i de mere praktiske dele af e-handel og finde ud af, hvor mine egne styrker ligger.
+        <p class="p1 w-100 xl:w-140">
+          Noget af det, der tiltaler mig ved E-handel, er, at vi kommer til at
+          arbejde med konkrete projekter og ikke kun teori. Jeg kan godt lide
+          processen fra en idé opstår, til man står med noget, der rent faktisk
+          fungerer. Derfor glæder jeg mig især til at få fingrene ned i de mere
+          praktiske dele af e-handel og finde ud af, hvor mine egne styrker
+          ligger.
         </p>
       </div>
     </div>
-    <SecondCTA></SecondCTA>
+    <SecondCTA />
   </section>
 </Layout>

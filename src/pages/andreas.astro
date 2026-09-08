@@ -1,16 +1,22 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import SecondCTA from '../components/SecondCTA.astro';
+import SecondCTA from "../components/SecondCTA.astro";
 ---
 
 <Layout>
-  <section class="flex flex-col gap-30 w-250 place-self-center pt-30">
+  <section class="flex flex-col gap-30 w-250 xl:w-350 place-self-center pt-30">
     <div class="flex flex-row place-items-center px-20 gap-10">
       <div class="flex flex-col gap-5 w-300">
-        <p class="quote">“Jeg er nysgerrig på, hvad der egentlig ligger bag en webshop, der bare fungerer.”</p>
-        <p>
-          Jeg er 24 år og bor i København. Før E-handel læste jeg til markedsføringsøkonomen, hvor jeg især blev interesseret i den digitale del af marketing. Jeg havde lyst til at bygge videre på min
-          uddannelse og få flere kompetencer inden for det digitale, og derfor gav E-handel rigtig god mening for mig.
+        <p class="quote">
+          “Jeg er nysgerrig på, hvad der egentlig ligger bag en webshop, der
+          bare fungerer.”
+        </p>
+        <p class="p1">
+          Jeg er 24 år og bor i København. Før E-handel læste jeg til
+          markedsføringsøkonomen, hvor jeg især blev interesseret i den digitale
+          del af marketing. Jeg havde lyst til at bygge videre på min uddannelse
+          og få flere kompetencer inden for det digitale, og derfor gav E-handel
+          rigtig god mening for mig.
         </p>
       </div>
       <div>
@@ -22,11 +28,16 @@ import SecondCTA from '../components/SecondCTA.astro';
         <img class="w-[80%]" src="../images/Andreas Rund.png" alt="" />
       </div>
       <div>
-         <p class="w-100">
-          Efter markedsføringsøkonomen havde jeg lyst til at gå mere i dybden med den digitale del af en virksomhed. Jeg synes, det er interessant, at en webshop kan se simpel ud for kunden, selvom der ligger rigtig mange beslutninger bag. På E-handel vil jeg gerne blive klogere på, hvordan man bruger blandt andet data, marketing og brugeradfærd til at skabe en god online forretning.
+        <p class="p1 w-100 xl:w-140">
+          Efter markedsføringsøkonomen havde jeg lyst til at gå mere i dybden
+          med den digitale del af en virksomhed. Jeg synes, det er interessant,
+          at en webshop kan se simpel ud for kunden, selvom der ligger rigtig
+          mange beslutninger bag. På E-handel vil jeg gerne blive klogere på,
+          hvordan man bruger blandt andet data, marketing og brugeradfærd til at
+          skabe en god online forretning.
         </p>
       </div>
     </div>
-    <SecondCTA></SecondCTA>
+    <SecondCTA />
   </section>
 </Layout>
