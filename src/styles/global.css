@@ -60,22 +60,21 @@
 }
 
 .h1 {
-  @apply font-body text-[30px] xl:text-[38px];
+  @apply font-body text-[30px]
 }
+
+.quote {
+  @apply font-body italic text-[30px]
+}
+
 .s1 {
-  @apply font-body font-bold text-[20px] xl:text-[20px];
+  @apply font-body font-bold text-[20px]
 }
 .p1 {
-  @apply font-body text-[18px] xl:text-[24px];
+  @apply font-body text-[15px]
 }
-.p2 {
-  @apply font-body text-[15px] xl:text-[20px];
-}
-.p3 {
-  @apply font-body text-[10px] xl:text-[16px];
-}
-.a1 {
-  @apply font-link text-[15px] xl:text-[20px];
+.button {
+  @apply font-body text-[15px]
 }
 
 @layer base {

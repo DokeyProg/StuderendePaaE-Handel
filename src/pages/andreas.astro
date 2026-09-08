@@ -1,12 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import SecondCTA from '../components/SecondCTA.astro';
 ---
 
 <Layout>
-  <section class="relative top-30 flex flex-col gap-30 w-250 place-self-center">
+  <section class="flex flex-col gap-30 w-250 place-self-center pt-30">
     <div class="flex flex-row place-items-center px-20 gap-10">
       <div class="flex flex-col gap-5 w-300">
-        <p class="h1 italic">“Jeg er nysgerrig på, hvad der egentlig ligger bag en webshop, der bare fungerer.”</p>
+        <p class="quote">“Jeg er nysgerrig på, hvad der egentlig ligger bag en webshop, der bare fungerer.”</p>
         <p>
           Jeg er 24 år og bor i København. Før E-handel læste jeg til markedsføringsøkonomen, hvor jeg især blev interesseret i den digitale del af marketing. Jeg havde lyst til at bygge videre på min
           uddannelse og få flere kompetencer inden for det digitale, og derfor gav E-handel rigtig god mening for mig.
@@ -26,15 +27,6 @@ import Layout from "../layouts/Layout.astro";
         </p>
       </div>
     </div>
-    <div class="flex flex-row px-20 py-10">
-      <div class="flex flex-col gap-5">
-        <p>Søg ind</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, ratione.</p>
-        <button class="place-self-start">Hej</button>
-      </div>
-      <div>
-        <img src="placeholder.png" alt="" />
-      </div>
-    </div>
+    <SecondCTA></SecondCTA>
   </section>
 </Layout>
